@@ -8,7 +8,7 @@ const Resume = () => {
   const handleDownload = () => {
     // Trigger download
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1up9jKODNNIZuuo5HZOZKkzNuTC4FnDTa/view?usp=sharing";
+    link.href = "https://drive.google.com/file/d/1fBT3FcLmw8NSq9JnqCpc3TOWiJoccsgy/view?usp=sharing";
     link.download = "";
     document.body.appendChild(link);
     link.click();
