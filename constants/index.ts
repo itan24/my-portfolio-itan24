@@ -258,7 +258,7 @@ export const Backend_skill = [
 export const Full_stack = [
   {
     skill_name: "Pyhton",
-    Image: "/python.png",
+    Image: "/Python.png",
     width: 70,
     height: 70,
   },
@@ -270,7 +270,7 @@ export const Full_stack = [
   },
   {
     skill_name: "Dapr",
-    Image: "/dapr.png",
+    Image: "/Dapr.png",
     width: 90,
     height: 90,
   },
@@ -289,7 +289,7 @@ export const Full_stack = [
   },
   {
     skill_name: "Kubernetes",
-    Image: "/kubernetes.png",
+    Image: "/Kubernetes.png",
     width: 80,
     height: 80,
   },
