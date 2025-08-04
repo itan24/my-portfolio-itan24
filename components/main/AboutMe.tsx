@@ -109,7 +109,7 @@ const AboutMe = () => {
       >
         <h1 className="Welcome-text text-4xl font-bold text-center">Skills</h1>
       </motion.div>
-
+{/* SKills details  */}
       <motion.div
         variants={slideInFromLeft(0.8)}
         initial="hidden"
@@ -160,6 +160,12 @@ const AboutMe = () => {
             Tools:{" "}
           </span>{" "}
           Git, Poetry, NextAuth.js
+        </p>
+        <p className="mt-1">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            AI Automation:{" "}
+          </span>{" "}
+          Botpress, OpenAI SDK Agent
         </p>
       </motion.div>
     </section>

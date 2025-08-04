@@ -11,12 +11,24 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-10">
+      <ProjectCard
+          src="/taskify.png"
+          title="Task Management App"
+          description="A sleek and modern task management app to organize, prioritize, and track your daily tasks with ease."
+          link="https://taskify-sooty-five.vercel.app"
+        />
         <ProjectCard
           src="/meter-tracker.png"
           title="Meter Reading Tracker"
           description="Monitor meter readings, predict bills, and manage all your profiles in one place. Stay on top of usage with automatic calculations."
           link="https://my-meter-app.vercel.app/dashboard"
         />
+          <ProjectCard
+            src="/landlord-app.png"
+            title="Landlord-app"
+            description="A Next.js-based property management app for landlords to manage tenants and bills efficiently. Features include WhatsApp integration, secure Google login, and responsive design. Open for contributions—check the repo for setup details!"
+            link="https://landlord-app-one.vercel.app/"
+          />
         <ProjectCard
           src="/ecommerece.png"
           title="Ecommerece Website"
@@ -34,12 +46,6 @@ const Projects = () => {
           title="Calculator"
           description="Toggles between basic and scientific math, supports keyboard input, and offers dark/light themes. A clean-code demo of Next.js and Tailwind flexibility."
           link="https://my-calculator-eight-delta.vercel.app"
-        />
-        <ProjectCard
-          src="/landlord-app.png"
-          title="Landlord-app"
-          description="A Next.js-based property management app for landlords to manage tenants and bills efficiently. Features include WhatsApp integration, secure Google login, and responsive design. Open for contributions—check the repo for setup details!"
-          link="https://landlord-app-one.vercel.app/"
         />
       </div>
     </div>
